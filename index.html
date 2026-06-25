@@ -33,6 +33,58 @@
     * Author: BootstrapMade.com
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
+<style>
+    .button {
+        display: inline-block;
+        padding: 12px 22px;
+        background: #0563bb;
+        color: #fff !important;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: 0.3s;
+    }
+
+    .button:hover {
+        background: #0678e3;
+        color: #fff !important;
+        text-decoration: none;
+    }
+
+    .pluspetit {
+        max-width: 850px;
+        line-height: 1.7;
+    }
+
+    .portfolio .section-title p,
+    .resume .section-title p,
+    .about .section-title p,
+    .services .section-title p {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .video-wrapper {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        border-radius: 12px;
+        background: #f2f3f5;
+    }
+
+    .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+
+
+
 </head>
 
 <body>
@@ -54,12 +106,19 @@
             <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-bulb"></i> <span>Mes compétences</span></a>
             </li>
             <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-                <span>Mon Portfolio</span></a>
-            </li>
-            <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i>
-                <span>Un peu plus sur moi</span></a></li>
-            <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i>
-                <span>Pour me contacter</span></a></li>
+    <span>Mes projets</span></a>
+</li>
+<li><a href="#rapport" class="nav-link scrollto"><i class="bx bx-file"></i>
+    <span>Rapport d'activité</span></a>
+</li>
+<li><a href="#medias-existants" class="nav-link scrollto"><i class="bx bx-image"></i>
+    <span>Médias conservés</span></a>
+</li>
+<li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i>
+    <span>À propos de moi</span></a></li>
+<li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i>
+    <span>Me contacter</span></a></li>
+
         </ul>
     </nav><!-- .nav-menu -->
 
@@ -70,9 +129,14 @@
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
         <h1>Fanta KOUYATE</h1>
         <p>Je suis <span class="typed"
-                         data-typed-items="Étudiante en 3ème année du BUT Information-Communication, parcours INFONUM"></span>
+                         data-typed-items="Étudiante en Information-Communication, Intéressée par l'UX design, l'accessibilité numérique, l'ergonomie et l'inclusion"></span>
         </p>
-        <p class="pluspetit">Bienvenue sur ma page! <br>Découvrez qui je suis et ce que je fais dans la vie ...</p>
+        <p class="pluspetit">
+            Rendre l'information plus claire, plus accessible et plus utile.
+            <br>
+            Bienvenue sur mon portfolio : un espace qui présente mon parcours, mes projets et mon intérêt pour
+            l'expérience utilisateur, l'accessibilité et la conception de dispositifs numériques inclusifs.
+        </p>
     </div>
 </section><!-- End Hero -->
 
@@ -82,13 +146,15 @@
     <section id="about" class="about">
         <div class="container" data-aos="fade-up">
 
-            <div class="section-title">
-                <h2>Qui suis-je ...</h2>
-                <p>Étudiante en BUT Information-Communication, parcours Information Numérique dans les Organisations,
-                    je m'intéresse particulièrement à l'accessibilité, à l'expérience utilisateur et à l'inclusion
-                    numérique. Je termine actuellement ma 3ème année et je souhaite poursuivre en master sur ces
-                    thématiques.</p>
-            </div>
+           <div class="section-title">
+    <h2>Qui suis-je ?</h2>
+    <p>
+        Étudiante en troisième année de BUT Information-Communication, parcours Information Numérique dans les Organisations,
+        je m'intéresse particulièrement à la manière dont les personnes accèdent, comprennent et utilisent l'information.
+        Mon parcours m'a progressivement orientée vers l'UX design, l'ergonomie, l'accessibilité numérique et l'inclusion.
+    </p>
+</div>
+
 
             <div class="row">
                 <div class="col-lg-4">
@@ -97,10 +163,10 @@
                 <div class="col-lg-8 pt-4 pt-lg-0 content">
                     <h3>Étudiante en 3ème année du BUT Information-Communication, parcours Information Numérique dans
                         les Organisations</h3>
-                    <p class="fst-italic">
-                        À l'IUT Bordeaux-Montaigne depuis 2023, je finalise mon cursus cette année avant de
-                        poursuivre en master.
-                    </p>
+                   <p class="fst-italic">
+    À l'IUT Bordeaux-Montaigne depuis 2023, je finalise mon cursus cette année avant de poursuivre en master
+    dans le domaine de l'ergonomie, du numérique et de l'accessibilité.
+</p>
                     <div class="row">
                         <div class="col-lg-6">
                             <ul>
@@ -125,7 +191,16 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> 
+                <div class="col-lg-12 mt-4">
+    <p>
+        Au fil de mes projets universitaires et de mes stages, j'ai développé des compétences en recherche documentaire,
+        veille, analyse de données, architecture de l'information et valorisation de contenus. Ce qui m'intéresse aujourd'hui,
+        c'est de concevoir des contenus et dispositifs numériques plus clairs, plus accessibles et mieux adaptés aux besoins
+        des utilisateurs.
+    </p>
+</div>
+
             </div>
 
         </div>
@@ -327,23 +402,29 @@
     <section id="portfolio" class="portfolio section-bg">
         <div class="container" data-aos="fade-up">
 
-            <div class="section-title">
-                <h2>Portfolio</h2>
-                <p></p>
-            </div>
+         <div class="section-title">
+    <h2>Mes projets</h2>
+    <p>
+        Les projets présentés ici illustrent mon intérêt pour la recherche d'information, l'analyse de données,
+        la structuration de contenus, l'UX design et l'accessibilité numérique. Ils montrent mon évolution vers
+        un projet professionnel centré sur l'humain, la compréhension des usages et l'inclusion.
+    </p>
+</div>
+
 
             <!-- Filtrage -->
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                    <ul id="portfolio-flters">
-                        <li class="filter-active" data-filter="*">All</li>
-                        <li data-filter=".filter-recherche">Recherche &amp; info</li>
-                        <li data-filter=".filter-donnees">Données</li>
-                        <li data-filter=".filter-ux">UX &amp; numérique</li>
-                        <li data-filter=".filter-com">Communication</li>
-                        <li data-filter=".filter-videos">Vidéos</li>
-                        <li data-filter=".filter-anciens">Anciens travaux</li>
-                    </ul>
+                   <ul id="portfolio-flters">
+    <li class="filter-active" data-filter="*">Tous</li>
+    <li data-filter=".filter-ux">UX, accessibilité &amp; numérique</li>
+    <li data-filter=".filter-recherche">Recherche &amp; information</li>
+    <li data-filter=".filter-donnees">Données &amp; datavisualisation</li>
+    <li data-filter=".filter-com">Communication &amp; valorisation</li>
+    <li data-filter=".filter-videos">Vidéos</li>
+    <li data-filter=".filter-anciens">Médias conservés</li>
+</ul>
+
                 </div>
             </div>
 
@@ -683,6 +764,208 @@
         </div>
     </section><!-- End Portfolio Section -->
 
+    <!-- ======= Rapport d'activité Section ======= -->
+<section id="rapport" class="resume">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Rapport d'activité 2025-2026</h2>
+            <p>
+                Ce rapport retrace ma troisième année de BUT Information-Communication, parcours Information Numérique
+                dans les Organisations. Il présente les enseignements, projets universitaires et expériences professionnelles
+                qui ont contribué à construire mon projet d'études autour de l'ergonomie, de l'accessibilité numérique,
+                de l'expérience utilisateur et de l'inclusion.
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <h3 class="resume-title">Ce que ce rapport met en avant</h3>
+
+                <div class="resume-item">
+                    <h4>Une évolution vers l'accessibilité et l'UX</h4>
+                    <p>
+                        Mon parcours m'a permis de mieux comprendre l'importance de concevoir des contenus et des dispositifs
+                        numériques adaptés aux besoins des utilisateurs, notamment dans une logique d'inclusion.
+                    </p>
+                </div>
+
+                <div class="resume-item">
+                    <h4>Des compétences en information numérique</h4>
+                    <p>
+                        Recherche documentaire, veille, OSINT, open data, datajournalisme, architecture de l'information
+                        et valorisation des contenus font partie des compétences que j'ai consolidées cette année.
+                    </p>
+                </div>
+
+                <div class="resume-item">
+                    <h4>Un projet de poursuite d'études</h4>
+                    <p>
+                        Je souhaite poursuivre en master dans le domaine de l'ergonomie, du numérique, de la cognition
+                        et du handicap afin de contribuer à la conception de solutions plus accessibles.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <h3 class="resume-title">Mots-clés de mon parcours</h3>
+
+                <div class="resume-item">
+                    <h4>Axes principaux</h4>
+                    <p>
+                        Accessibilité numérique · UX design · Ergonomie · Inclusion · Handicap · Expérience utilisateur ·
+                        Recherche documentaire · Analyse de données · Architecture de l'information · OSINT · Open data.
+                    </p>
+                </div>
+
+                <div class="resume-item">
+                    <h4>Consulter le rapport</h4>
+                    <p>
+                        Mon rapport d'activité complet sera disponible ici au format PDF.
+                    </p>
+                    <a class="button center" href="assets/rapport-activite-fanta-kouyate.pdf">
+                        Télécharger mon rapport d'activité
+                    </a>
+                    <p class="mt-3">
+                        <em>
+                            Pense à déposer ton PDF dans le dossier <strong>assets</strong> avec le nom :
+                            <strong>rapport-activite-fanta-kouyate.pdf</strong>.
+                        </em>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section><!-- End Rapport Section -->
+<!-- ======= Médias existants conservés Section ======= -->
+<section id="medias-existants" class="portfolio section-bg">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Photos et médias conservés</h2>
+            <p>
+                Cette section regroupe les médias déjà présents dans mon ancien portfolio. Ils sont conservés ici afin
+                de ne pas les supprimer. Je pourrai ensuite les réorganiser progressivement dans les projets correspondants.
+            </p>
+        </div>
+
+        <div class="row portfolio-container">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item">
+                <div class="portfolio-wrap">
+                    <img src="assets/img/sitescreen.PNG" class="img-fluid" alt="Capture d'écran d'une création de site">
+                    <div class="portfolio-info">
+                        <h4>Création d'un site</h4>
+                        <p>Média conservé</p>
+                        <div class="portfolio-links">
+                            <a href="assets/img/sitescreen.PNG" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item">
+                <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/Travaux 1A/2b9b249e-228e-424d-9fe1-8275630b8526.jpg"
+                         class="img-fluid" alt="Création d'une publicité photo">
+                    <div class="portfolio-info">
+                        <h4>Publicité photo</h4>
+                        <p>Média conservé</p>
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/Travaux 1A/2b9b249e-228e-424d-9fe1-8275630b8526.jpg"
+                               data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item">
+                <div class="portfolio-wrap">
+                    <img src="assets/img/Dites non au bluemonday et laissez place au buenomonday.PNG"
+                         class="img-fluid" alt="Création d'une publicité pour le Bluemonday">
+                    <div class="portfolio-info">
+                        <h4>Buenomonday</h4>
+                        <p>Média conservé</p>
+                        <div class="portfolio-links">
+                            <a href="assets/img/Dites non au bluemonday et laissez place au buenomonday.PNG"
+                               data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item">
+                <div class="portfolio-wrap">
+                    <img src="assets/img/immeuble Gironde086_0.jpeg" class="img-fluid"
+                         alt="Bâtiment du Département de la Gironde">
+                    <div class="portfolio-info">
+                        <h4>Département de la Gironde</h4>
+                        <p>Média conservé</p>
+                        <div class="portfolio-links">
+                            <a href="assets/img/IMG_4632.jpg" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                            <a href="assets/img/IMG_4504.jpeg" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item">
+                <div class="portfolio-wrap">
+                    <img src="assets/img/capital data 1.png" class="img-fluid" alt="Portail documentaire Capital Data">
+                    <div class="portfolio-info">
+                        <h4>Portail documentaire</h4>
+                        <p>Média conservé</p>
+                        <div class="portfolio-links">
+                            <a href="assets/notice.jpg" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item">
+                <div class="portfolio-wrap">
+                    <img src="assets/citation.jpg" class="img-fluid" alt="Citation utilisée pour une animation QVCT">
+                    <div class="portfolio-info">
+                        <h4>QVCT animation</h4>
+                        <p>Média conservé</p>
+                        <div class="portfolio-links">
+                            <a href="assets/img/IMG_4659.jpeg" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/VEC-DRTtIlk" frameborder="0"
+                            title="Vidéo conservée 1" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/vlvmsxlTgVw" frameborder="0"
+                            title="Vidéo conservée 2" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/km_aNcI2Vtc" frameborder="0"
+                            title="Vidéo conservée 3" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section><!-- End Médias existants Section -->
+
     <!-- Include Lightbox2 JS -->
     <script src="lightbox2/js/lightbox-plus-jquery.min.js"></script>
 
@@ -691,8 +974,12 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Un peu plus sur moi...</h2>
-                <p>Pour en apprendre plus sur moi, je te propose de me définir en 6 adjectifs :</p>
+                <h2>À propos de moi</h2>
+<p>
+    Ces qualités reflètent ma façon de travailler : observer, comprendre les besoins des autres,
+    organiser l'information et proposer des contenus utiles et accessibles.
+</p>
+
             </div>
 
             <div class="row">
@@ -839,7 +1126,7 @@
 <footer id="footer">
     <div class="container">
         <h3>Fanta KOUYATE</h3>
-        <p>«Avoir des rêves suffisamment grands pour ne pas les perdre de vue» Oscar Wilde.</p>
+        <p>Rendre l'information plus claire, plus accessible et plus utile.</p>
 
         <div class="copyright">
             &copy; Copyright <strong><span>fantak_6</span></strong>. All Rights Reserved
